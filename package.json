@@ -1,7 +1,7 @@
 {
   "name": "speech-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "Socket.IO server for speech-to-desktop",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -9,5 +9,8 @@
   "dependencies": {
     "express": "^4.19.2",
     "socket.io": "^4.7.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
